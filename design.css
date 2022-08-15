@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #2c1657;
+}
+a {
+    display: inline-block;
+    color: #ccc;
+    padding: 20px 40px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.3s;
+}
+a:hover {
+    color: #2c1657;
+    background: #e4cd05;
+    box-shadow: 0 0 10px #e4cd05,
+    0 0 45px #e4cd05, 0 0 45px #e4cd05;
+    transition-delay: 0.2s;
+}
